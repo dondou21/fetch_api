@@ -15,4 +15,4 @@ fetch("https://fakestoreapi.com/products")
     document.getElementById("table_body").innerHTML=tableData;
 }).catch((err) => {
     console.log(err);
-}) 
+})

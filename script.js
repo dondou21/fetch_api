@@ -12,7 +12,7 @@ fetch("https://fakestoreapi.com/products")
                 <td><img src="${values.image}"/></td>
               </tr>`;
     });
-    document.getElementById("table_body").innerHTML=tableData;
+    document.getElementById("table_body").innerHTML=tableData; 
 }).catch((err) => {
     console.log(err);
 })
